@@ -3,22 +3,22 @@ import 'dart:ui';
 
 class Config {
 
-  static const String packageNameAndroid = "com.trace.appsdabanda";
-  static const String packageNameiOS = "com.trace.appsdabanda";
+  static const String packageNameAndroid = "com.tictic.pllana";
+  static const String packageNameiOS = "com.tictic.pllana";
   static const String iosAppStoreId = "1631705048";
-  static final String appName = "Trace";
+  static final String appName = "TicTic";
   static final String appVersion = "1.0.0";
-  static final String companyName = "Trace, inc";
-  static final String appOrCompanyUrl = "https://trace.live";
+  static final String companyName = "TicTic, inc";
+  static final String appOrCompanyUrl = "https://www.tictic.info";
   static final String initialCountry = 'AO'; // United States
 
   static final String serverUrl = "https://parseapi.back4app.com";
-  static final String liveQueryUrl = "wss://livaadmin.b4a.io";
-  static final String appId = "gtsM4g84EIUNjwypDJaJJd5PLWuCMsTjhKKKLR28";
-  static final String clientKey = "fyc4tMjJkUAskjXmMMNH0msl8Fcb6N2szgNgXOrU";
+  static final String liveQueryUrl = "wss://tictic.b4a.io";
+  static final String appId = "W9oyykuIT0Es4ophYahqR89M7Um5isni5331Wnsm";
+  static final String clientKey = "iAnJPcS7iEv4ZSLYRZSIUQ69zADsTQQiZBatMrlX";
 
   //OneSignal
-  static final String oneSignalAppId = "afb1e914-bd8d-40a9-ba9d-a75a87b0138e";
+  static final String oneSignalAppId = "a7641fbe-4846-4dee-b5c6-3c4292af82f2";
 
   // Firebase Cloud Messaging
   static final String pushGcm = "908354790229";
@@ -28,8 +28,8 @@ class Config {
   static final String supportId = "WVp6hr1iTX";
 
   // Play Store and App Store public keys
-  static final String publicGoogleSdkKey = "goog_TaGCmkLpdIGGRuPWBSUCgwhvfix";
-  static final String publicIosSdkKey = "appl_cnjXcXBkcsytQSqQRfaVUJoNJIw";
+  static final String publicGoogleSdkKey = "";
+  static final String publicIosSdkKey = "";
 
   // Languages
   static String defaultLanguage = "en"; // English is default language.
@@ -56,24 +56,24 @@ class Config {
   static const String admobIOSFeedBannerAd = "ca-app-pub-1084112649181796/6907075815";
 
   // Web links for help, privacy policy and terms of use.
-  static final String helpCenterUrl = "https://trace-34749.web.app/terms/";
-  static final String privacyPolicyUrl = "https://trace-34749.web.app/pivacy/";
-  static final String termsOfUseUrl = "https://trace-34749.web.app/terms/";
-  static final String termsOfUseInAppUrl = "https://trace-34749.web.app/terms/";
+  static final String helpCenterUrl = "https://pllana.info/terms-of-service/";
+  static final String privacyPolicyUrl = "https://pllana.info/privacy-policy/";
+  static final String termsOfUseUrl = "https://pllana.info/terms-of-service/";
+  static final String termsOfUseInAppUrl = "https://pllana.info/terms-of-service/";
   static final String dataSafetyUrl = "https://ladylivea.net/help.hmtl";
   static final String openSourceUrl = "https://www.ladylivea.net/third-party-license.html";
   static final String instructionsUrl = "https://ladylivea.net/instructions.hmtl";
   static final String cashOutUrl = "https://ladylivea.net/cashout.hmtl";
   static final String supportUrl = "https://www.ladylivea.net/support";
-  static final String liveAgreementUrl = "https://trace-34749.web.app/live/";
-  static final String userAgreementUrl = "https://trace-34749.web.app/user/";
+  static final String liveAgreementUrl = "https://pllana.info/live/";
+  static final String userAgreementUrl = "https://pllana.info/user/";
 
   // Google Play and Apple Pay In-app Purchases IDs
-  static final String credit100 = "trace.100.credits";
-  static final String credit200 = "trace.200.credits";
-  static final String credit500 = "trace.500.credits";
-  static final String credit1000 = "trace.1000.credits";
-  static final String credit2100 = "trace.2100.credits";
-  static final String credit5250 = "trace.5250.credits";
-  static final String credit10500 = "trace.10500.credits";
+  static final String credit100 = "tictic.100.credits";
+  static final String credit200 = "tictic.200.credits";
+  static final String credit500 = "tictic.500.credits";
+  static final String credit1000 = "tictic.1000.credits";
+  static final String credit2100 = "tictic.2100.credits";
+  static final String credit5250 = "tictic.5250.credits";
+  static final String credit10500 = "tictic.10500.credits";
 }

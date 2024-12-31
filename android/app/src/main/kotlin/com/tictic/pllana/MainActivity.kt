@@ -1,4 +1,4 @@
-package com.trace.appsdabanda
+package com.tictic.pllana
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine

@@ -24,24 +24,17 @@ class Setup {
   // App config
   static final bool isCallsEnabled = true;
   static final String streamingProviderType = 'agora'; // webrtc
-  static final String streamingProviderKey = '45142698fb9a4e97885ac90df7c0ee17';
-
-  //Zego Cloud Credentials (My account)
-  //static final int zegoLiveStreamAppID = 843443757;
-  //static final String zegoLiveStreamAppSign = "3516989f3b5863cf137f7c72450a0654557eeb5cce9a809836a70bae72c61f07";
-  //static final String zegoLiveStreamServerSecret = "fbedbb164d9d912de12b49abd8c29683";
-  //static final String zegoPushResourceID = "traceCalls";
+  static final String streamingProviderKey = '';
 
   //Zego Cloud Credentials
-  static final int zegoLiveStreamAppID = 1558715233;
-  static final String zegoLiveStreamAppSign = "43b06a3069b0bd979966f690f32a519d84ebe83d70eafa65d0b38ebeb4b6e09b";
-  static final String zegoLiveStreamServerSecret = "d6239a3614ccd71ed99ee5470666358f";
-  static final String zegoPushResourceID = "traceCalls";
+  static final int zegoLiveStreamAppID = 288039093;
+  static final String zegoLiveStreamAppSign = "273fcf5e153a9993e3708f92b87c1571f16e7bc6a38818a7e3cfb74e75270c61";
+  static final String zegoLiveStreamServerSecret = "cf71fda3948e745f725833405f372c91";
+  static final String zegoPushResourceID = "ticticCalls";
 
 
   //Set Banuba license token for Video Editor SDK
-  //static const String licenseToken = "G9P0J2CJup0AXC6vaJaZZzRKfl6KoEI4M7W1GH3HmBnIrkvZ5UFkfyXBArfdDPJ+ruILLhDjOrIbQji4RQLoFqZ6zIvTZOOVAcdrM/qGgzdNiv1jLHq12mexlUOOm7mxDBeuccYFsN5AggiYDzhEQAD42AxMTvFOvMP+3tmO8h9yOzUbFjK4AlOFL0jWE703NrxoOfEs6IDdf4rohijObQJ5e1D8Rb/vWUODmXvS/RjuSf5hi4ytaJYDtoxZp2Pp2Hs/r+Id2/7WwqUx4N3+g75l5B1UwBsQv73urcNXlx4AeW+3p5opSq9L4TGg0+ZrRBvzffK5uUkZyaDTNmyca7Bxn4Xq9RAcNUtdijPckDB9Z1kGxCTsnEtYif1xEk0tEfAfowi5yzbo7N2XajwXILQu8/PoWpznRxZ4o59cfcl41AUWiUae07/ufUxnGtPJKF/do/pCG9DcOZkgyQ011tywql5j9vOgxGIPd/M28Emn9wIsT2LVbRQzhrscv1MUR2lWWddq/F+8DPyR3i2dYbuCeB5RaxRBLpceTCY=";
-  static const String licenseToken = "VWVR+BWfOYj9sCz+CeiZfTRKfEC8pkAjGbiOTzWJ+02Jr1rD4UIyJXmCXvyDAeFppOIMJ02jYYdMYTfyWQj1XfJnwYf6UaSrWZY3fqOQk3NGx7k7fTP1gCv4+0CL1eSmTB6ydtITtYYa0lDYZ2lOEVi02g1ACaVhvoezy8iB5wdlfHxiDkO4HR7EJ0PNGaYtDZRif7lhtoGrG777yGihNFQhLg+nVeS+NxTFmgWz7AWoO/w60YjoNNdc8PQ9jSSkjks0r+J8jbOPhe1H/9Xhu712pVQFpHN5sbO8h/B7riEgUUzH0oJOWJJwxgjrm+YBNCrjfoLQy0w/5IHvEkDnZb4euIfGw3NTeXkaxDPH3XFrQV0Bw2mkiU1Eg79xSgYNFdwWv1eYmXmx4pu5YwYbCLwy6bmGGcWsAhdr+OwbQcwznVJG5xacy6LlbUBnFNiZMELO3LBGEsrmOLU2hEB3s4L7tFxn9o7ug1YNcL9fpx74oUB6V3PdcCUXhrtM6ghAMgp+V9k83V20Do3OzTKNauPBehJtYSslWJcYTAi6Alv7OtjOsQ/jsXaJr0L0+U1JE7J3uWCHtEeVftXrKAVO0H1CLt1hYvOucAJGTKUPpfmuFXF2hYNGSuZD6iG3LV0hJTX32JldAiyAk+Qhzmwp99P+1Jtv3VFVaqsamN8CpPMZEwFoLlMiUwBKb2bwF2LTR+LKDqei3/5PPZsheaI8L7RsMZmmG9QtkgBmZ9FcdHZ1sc37YdXUK2dXylF131hvXYVFUb0uslbYVnmFy42FZisj358CoS2Tu7+mDacy/ocMm8mdjTCY/pLTCDWNjckANdiRNfACIamcPxOkNJ949E6R6DVRtklhBXtpFK1BiV9sWT9LPcJjlDm0jZNt4mpmEUztIwB5s+ZNMY3Wox5oTlgvgvxftFD+WEGnBQpezAtNaskcFrh9QnNHruPobl/42wlettGp9K8lhPzgjB4tYCcx7HMIHdTCuqyc6VwvpIc2hvjR3KVWcl7BjcOh/6QcFE9mDjWIbRliJG36P6R/I+U43McP9JAbshwQ59go/JRfyq+Olg5zApJKdWsvTqu0L74IktK06B3gwI7cDAU5cdpk4TYG0njeiGsEJgIpje0HATST+CR3xnVbsHIhYl/ETqk6IioEAPfYpovH1hj+Bl1vXpKnx1kG91v5kKVyikUB5xUSoDVU6LXt7WNJPorap4CaMPhInGlny8j95ZK64Y4cL5/frR7Wn4H3BJ8irA==";
+  static const String licenseToken = "";
 
 
   static const channelName = 'startActivity/VideoEditorChannel';

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "661440329066",
+    "project_id": "qkemitictic",
+    "storage_bucket": "qkemitictic.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661440329066:android:01081fe4f192ca828de113",
+        "android_client_info": {
+          "package_name": "com.tictic.pllana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661440329066-q1i2qe2unld9oria5jv1h64raaed02kf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tictic.pllana",
+            "certificate_hash": "73e949b8730cea9420801d18ad0241fc93d5efe5"
+          }
+        },
+        {
+          "client_id": "661440329066-mokfcc0nvl600f1i3rgohjmkoi0lol21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3egKTsEwNTXJ3UKngDc0JJkD59Ht66Bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661440329066-mokfcc0nvl600f1i3rgohjmkoi0lol21.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "661440329066-cgvg6qmboetocr8pihsrmjqv6octsfqu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tictic.pllana"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

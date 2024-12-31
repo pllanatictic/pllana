@@ -1741,13 +1741,14 @@ class MultiUsersLiveScreenState extends State<MultiUsersLiveScreen> with TickerP
     Size(size.width - padding * 2, size.width * 9 / 16);
     return ZegoUIKitMediaPlayer(
       size: playerSize,
-      enableRepeat: true,
-      canControl: canControl,
-      showSurface: true,
       initPosition: Offset(
         size.width - playerSize.width - padding,
         size.height - playerSize.height - padding - 40,
-      ),
+      ), config: ZegoUIKitMediaPlayerConfig(
+      enableRepeat: true,
+      canControl: canControl,
+      showSurface: true,
+    ),
     );
   }
 
