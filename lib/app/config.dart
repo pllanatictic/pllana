@@ -28,7 +28,7 @@ class Config {
   static final String supportId = "WVp6hr1iTX";
 
   // Play Store and App Store public keys
-  static final String publicGoogleSdkKey = "";
+  static final String publicGoogleSdkKey = "goog_HVXiCPAoFnEmIvshNpbcwQlqpkq";
   static final String publicIosSdkKey = "";
 
   // Languages
@@ -40,12 +40,12 @@ class Config {
   ];
 
   // Android Admob ad
-  static const String admobAndroidOpenAppAd = "ca-app-pub-9318890613494690/4325316561";
-  static const String admobAndroidHomeBannerAd = "ca-app-pub-9318890613494690/8240828077";
-  static const String admobAndroidFeedNativeAd = "ca-app-pub-9318890613494690/9362338057";
-  static const String admobAndroidChatListBannerAd = "ca-app-pub-9318890613494690/6736174716";
-  static const String admobAndroidLiveBannerAd = "ca-app-pub-9318890613494690/7959371442";
-  static const String admobAndroidFeedBannerAd = "ca-app-pub-9318890613494690/9362338057";
+  static const String admobAndroidOpenAppAd = "ca-app-pub-1324596333691577/6963870349";
+  static const String admobAndroidHomeBannerAd = "ca-app-pub-1324596333691577/8276952014";
+  static const String admobAndroidFeedNativeAd = "ca-app-pub-1324596333691577/8752203540";
+  static const String admobAndroidChatListBannerAd = "ca-app-pub-1324596333691577/8276952014";
+  static const String admobAndroidLiveBannerAd = "ca-app-pub-1324596333691577/8276952014";
+  static const String admobAndroidFeedBannerAd = "ca-app-pub-1324596333691577/8276952014";
 
   // iOS Admob ad
   static const String admobIOSOpenAppAd = "ca-app-pub-1084112649181796/6328973508";
