@@ -16,7 +16,7 @@ if (localPropertiesFile.exists()) {
 
 def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
 if (flutterVersionCode == null) {
-    flutterVersionCode = '3'
+    flutterVersionCode = '4'
 }
 
 def flutterVersionName = localProperties.getProperty('flutter.versionName')
@@ -111,6 +111,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.facebook.android:facebook-android-sdk:[8,9)'
     implementation 'androidx.core:core-splashscreen:1.0.1'
+    implementation "org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.9.0"
 }
 
 apply plugin: 'com.google.gms.google-services'
