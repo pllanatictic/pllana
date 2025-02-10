@@ -701,10 +701,8 @@ class _FeedHomeScreenState extends State<FeedHomeScreen>
                 author = post.getAuthor;
 
                 if(post.getAuthor == null) {
-                  debugPrint("sao_usuarois: ${post.objectId}");
-                }/*else{
-                  author = widget.currentUser!;
-                }*/
+                  return SizedBox();
+                }
 
                 return ContainerCorner(
                   color: QuickHelp.isDarkMode(context)
