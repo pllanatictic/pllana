@@ -10,7 +10,6 @@ import 'package:trace/models/others/video_editor_model.dart';
 import 'package:trace/ui/container_with_corner.dart';
 import 'package:trace/utils/colors.dart';
 import 'package:video_editor/video_editor.dart';
-
 import '../../ui/app_bar.dart';
 import '../../ui/text_with_tap.dart';
 import '../../utils/helpers/transition.dart';
@@ -78,91 +77,91 @@ class _VideoEditorScreenState extends State<VideoEditorScreen> {
     _exportingProgress.value = 0;
     _isExporting.value = true;
     // NOTE: To use `-crf 1` and [VideoExportPreset] you need `ffmpeg_kit_flutter_min_gpl` package (with `ffmpeg_kit` only it won't work)
-    await _controller.exportVideo(
-      //preset: VideoExportPreset.medium,
-      // customInstruction: "-crf 17",
-      onProgress: (stats, value) => _exportingProgress.value = value,
-      onError: (e, s) => _exportText = "Error on export video :(",
-      onCompleted: (file) async {
-        _isExporting.value = false;
-
-        //VideoEditorModel videoEditorModel = VideoEditorModel();
-        //videoEditorModel.setCoverPath(cover.path);
-        //videoEditorModel.setVideoFile(file);
-
-        //QuickHelp.goBackToPreviousPage(context, result: videoEditorModel);
-
-        //if (!mounted) return;
-
-        await _controller.extractCover(
-          onError: (e, s) => _exportText = "Error on cover exportation :(",
-          onCompleted: (cover) {
-            if (!mounted) return;
-
-            //_exportText = "Cover exported! ${cover.path}";
-
-            print("Exported cover ${cover.path}");
-            print("Exported Video ${file.path}");
-
-            VideoEditorModel videoEditorModel = VideoEditorModel();
-            videoEditorModel.setCoverPath(cover.path);
-            videoEditorModel.setVideoFile(file);
-
-            QuickHelp.goBackToPreviousPage(context, result: videoEditorModel);
-          },
-        );
-
-        /*final VideoPlayerController videoController = VideoPlayerController.file(file);
-
-        videoController.initialize().then((value) async {
-          setState(() {});
-          videoController.play();
-          videoController.setLooping(true);
-          await showDialog(
-            context: context,
-            builder: (_) => Padding(
-              padding: const EdgeInsets.all(30),
-              child: Center(
-                child: AspectRatio(
-                  aspectRatio: videoController.value.aspectRatio,
-                  child: VideoPlayer(videoController),
-                ),
-              ),
-            ),
-          );
-          await videoController.pause();
-          videoController.dispose();
-        });*/
-
-        _exportText = "Video success export!";
-        setState(() => _exported = true);
-        /*Future.delayed(const Duration(seconds: 2),
-            () => setState(() => _exported = false));*/
-      },
-    );
+    // await _controller.exportVideo(
+    //   //preset: VideoExportPreset.medium,
+    //   // customInstruction: "-crf 17",
+    //   onProgress: (stats, value) => _exportingProgress.value = value,
+    //   onError: (e, s) => _exportText = "Error on export video :(",
+    //   onCompleted: (file) async {
+    //     _isExporting.value = false;
+    //
+    //     //VideoEditorModel videoEditorModel = VideoEditorModel();
+    //     //videoEditorModel.setCoverPath(cover.path);
+    //     //videoEditorModel.setVideoFile(file);
+    //
+    //     //QuickHelp.goBackToPreviousPage(context, result: videoEditorModel);
+    //
+    //     //if (!mounted) return;
+    //
+    //     await _controller.extractCover(
+    //       onError: (e, s) => _exportText = "Error on cover exportation :(",
+    //       onCompleted: (cover) {
+    //         if (!mounted) return;
+    //
+    //         //_exportText = "Cover exported! ${cover.path}";
+    //
+    //         print("Exported cover ${cover.path}");
+    //         print("Exported Video ${file.path}");
+    //
+    //         VideoEditorModel videoEditorModel = VideoEditorModel();
+    //         videoEditorModel.setCoverPath(cover.path);
+    //         videoEditorModel.setVideoFile(file);
+    //
+    //         QuickHelp.goBackToPreviousPage(context, result: videoEditorModel);
+    //       },
+    //     );
+    //
+    //     /*final VideoPlayerController videoController = VideoPlayerController.file(file);
+    //
+    //     videoController.initialize().then((value) async {
+    //       setState(() {});
+    //       videoController.play();
+    //       videoController.setLooping(true);
+    //       await showDialog(
+    //         context: context,
+    //         builder: (_) => Padding(
+    //           padding: const EdgeInsets.all(30),
+    //           child: Center(
+    //             child: AspectRatio(
+    //               aspectRatio: videoController.value.aspectRatio,
+    //               child: VideoPlayer(videoController),
+    //             ),
+    //           ),
+    //         ),
+    //       );
+    //       await videoController.pause();
+    //       videoController.dispose();
+    //     });*/
+    //
+    //     _exportText = "Video success export!";
+    //     setState(() => _exported = true);
+    //     /*Future.delayed(const Duration(seconds: 2),
+    //         () => setState(() => _exported = false));*/
+    //   },
+    // );
   }
 
   void _exportCover() async {
     setState(() => _exported = false);
-    await _controller.extractCover(
-      onError: (e, s) => _exportText = "Error on cover exportation :(",
-      onCompleted: (cover) {
-        if (!mounted) return;
-
-        _exportText = "Cover exported! ${cover.path}";
-        showDialog(
-          context: context,
-          builder: (_) => Padding(
-            padding: const EdgeInsets.all(30),
-            child: Center(child: Image.memory(cover.readAsBytesSync())),
-          ),
-        );
-
-        setState(() => _exported = true);
-        Future.delayed(const Duration(seconds: 2),
-            () => setState(() => _exported = false));
-      },
-    );
+    // await _controller.extractCover(
+    //   onError: (e, s) => _exportText = "Error on cover exportation :(",
+    //   onCompleted: (cover) {
+    //     if (!mounted) return;
+    //
+    //     _exportText = "Cover exported! ${cover.path}";
+    //     showDialog(
+    //       context: context,
+    //       builder: (_) => Padding(
+    //         padding: const EdgeInsets.all(30),
+    //         child: Center(child: Image.memory(cover.readAsBytesSync())),
+    //       ),
+    //     );
+    //
+    //     setState(() => _exported = true);
+    //     Future.delayed(const Duration(seconds: 2),
+    //         () => setState(() => _exported = false));
+    //   },
+    // );
   }
 
   @override

@@ -1,0 +1,2 @@
+/Users/chancilson/Projects/TicTic/android/app/.cxx/RelWithDebInfo/2u1s494c/x86_64/CMakeFiles/edit_cache.dir
+/Users/chancilson/Projects/TicTic/android/app/.cxx/RelWithDebInfo/2u1s494c/x86_64/CMakeFiles/rebuild_cache.dir

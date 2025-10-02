@@ -610,13 +610,6 @@ class _ResponsiveSignUpScreenState extends State<ResponsiveSignUpScreen> {
   cropImage(File? image) async{
     CroppedFile? croppedFile = await ImageCropper().cropImage(
       sourcePath: image!.path,
-      aspectRatioPresets: [
-        CropAspectRatioPreset.square,
-        CropAspectRatioPreset.ratio3x2,
-        CropAspectRatioPreset.original,
-        CropAspectRatioPreset.ratio4x3,
-        CropAspectRatioPreset.ratio16x9
-      ],
       maxHeight: 400,
       maxWidth: 400,
       uiSettings: [
@@ -632,15 +625,6 @@ class _ResponsiveSignUpScreenState extends State<ResponsiveSignUpScreen> {
         ),
         WebUiSettings(
           context: context,
-          enableResize: true,
-          enableZoom: true,
-          enableOrientation: true,
-          showZoomer: true,
-          presentStyle: CropperPresentStyle.dialog,
-          viewPort: CroppieViewPort(
-            width: 450,
-            height: 450,
-          ),
         ),
       ],
     );

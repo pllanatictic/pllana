@@ -1,0 +1,2 @@
+/Users/chancilson/Projects/TicTic/android/app/.cxx/Debug/3n6z2w1g/x86_64/CMakeFiles/edit_cache.dir
+/Users/chancilson/Projects/TicTic/android/app/.cxx/Debug/3n6z2w1g/x86_64/CMakeFiles/rebuild_cache.dir

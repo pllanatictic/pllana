@@ -789,7 +789,7 @@ class _CreateVideoPostScreenState extends State<CreateVideoPostScreen> {
       print("Exported cover received ${videoEditorModel.coverPath}");
       print("Exported Video received ${videoEditorModel.getVideoFile()!.path}");
 
-      videoFile = videoEditorModel.getVideoFile();
+      videoFile = file;
 
       final tempDir = await getTemporaryDirectory();
       DateTime date = DateTime.now();

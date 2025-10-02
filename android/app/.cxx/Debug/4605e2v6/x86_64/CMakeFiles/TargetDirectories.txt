@@ -1,0 +1,2 @@
+D:/Work/FreeLancer/TicTic_Bug_Fix/TicTic/android/app/.cxx/Debug/4605e2v6/x86_64/CMakeFiles/edit_cache.dir
+D:/Work/FreeLancer/TicTic_Bug_Fix/TicTic/android/app/.cxx/Debug/4605e2v6/x86_64/CMakeFiles/rebuild_cache.dir
